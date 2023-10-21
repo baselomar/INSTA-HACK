@@ -12,7 +12,7 @@ print(c)
 os.system('figlet -f script "  Mc LiST"')
 os.system('printf "\033[3;32m"')
 print('By : Prove YourSelF')
-print('-'*29)
+print('━'*29)
 file=open(aaa,'w')
 aa=set([])
 oio=set([])
@@ -27,7 +27,7 @@ while True :
         ll=len(qq.readlines())
         os.system('printf "\033[3;33m"')
         print('-'*60)
-        print('>> {} Passwords in ---> {} '.format(ll, aaa))
+        print('>> {} Passwords in ➪ {} '.format(ll, aaa))
         print('-'*60)
         break ;
     aa.add(b)
@@ -59,4 +59,4 @@ while True :
             file.write(d)
             file.write('\n')
     kk=int(kk)+1
-    print(''*40)
+    print('━'*40)
