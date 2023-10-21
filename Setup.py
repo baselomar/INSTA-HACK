@@ -59,4 +59,4 @@ while True :
             file.write(d)
             file.write('\n')
     kk=int(kk)+1
-    print('-'*40)
+    print(''*40)
