@@ -26,9 +26,9 @@ while True :
         qq=open(aaa, 'r' )
         ll=len(qq.readlines())
         os.system('printf "\033[3;33m"')
-        print('-'*60)
-        print('>> {} Passwords in ➪ {} '.format(ll, aaa))
-        print('-'*60)
+        print('━'*60)
+        print('☞ {} Passwords in ➪ {} '.format(ll, aaa))
+        print('━'*60)
         break ;
     aa.add(b)
     for i in aa:
